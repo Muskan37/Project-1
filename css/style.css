@@ -1,0 +1,616 @@
+/* ----------- 01.default css ----------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1160px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ----------- google fonts ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito+Sans:wght@400;600&family=Nunito:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap')
+
+body{
+    
+}
+
+.container:before,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    padding: 17px 15px 0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding: 15px;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+/* ----------- 02.header css ----------- */
+header{
+    background: #85CCC5;
+    height: 80px;
+}
+
+.logo img{
+    height: 80px;
+    
+}
+
+.Main-menu {
+    float: right;
+    padding: 7px 0 0 20px;
+    
+}
+
+.Main-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 0 0 40px;
+    float: left;
+}
+
+.Main-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.Main-menu ul li a:hover{
+    color: #E2F3F1;
+    transition: .5s;
+}
+
+/* ----------- 03.home css ----------- */
+
+.home{
+    background-image: url(../images/h1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-content{
+    padding: 150px 0;
+}
+
+.home-content h1{
+    font-size: 90px;
+    color: #85CCC5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    line-height: 90px;
+    text-shadow: 2px 2.5px .1px #474747;
+}
+
+.home-content h6{
+    font-size: 19px;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 25px;
+}
+
+.btn{
+    display: inline-flex;
+}
+
+.btn a{
+    background-color: #FED072;
+    color: #212121;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    text-decoration: none;
+    letter-spacing: .7px;
+    margin-top: 25px;
+    clear: both;
+    
+}
+
+.btn a:hover{
+    background-color: #85CCC5;
+    color: white;
+    transition: .5s;
+}
+
+/* ----------- 04.Category-box css ----------- */
+.catagory-box{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 300px;
+}
+
+.catagory-box-1{
+    background-image: url(../images/h1-box-1.jpg);
+}
+
+.catagory-box-2{
+    background-image: url(../images/h1-box-2.png);
+}
+
+.catagory-box-3{
+    background-image: url(../images/h1-box-3.jpg);
+}
+
+.catagory-box h3{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 54px;
+    text-transform: uppercase;
+    padding: 130px 0 10px 0;
+    line-height: 59.4px;
+    text-shadow: 2px 2.5px .1px #474747;
+}
+
+.catagory-box p{
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 28.1px;
+}
+
+.col-p-0 .col-33{
+    padding: 0;
+    margin-top: -120px;
+}
+
+/* ----------- 05.Category css ----------- */
+
+.ctg-title{
+    display: inline-flex;
+    padding: 50px 0 0 0;
+}
+
+.ctg-title h4{
+    font-size: 25px;
+    color: #434343;
+    padding: 30px 0 0 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.ctg-title img{
+    float: left;
+}
+
+.catagory-all-item{
+    padding: 50px 0 0 0;
+
+}
+
+.catagory-all-item p{
+    clear: both;
+    color: #434343;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    padding: 0 0 50px 10px;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.section-padding-top{
+    padding-top: 100px;
+}
+
+.section-padding-bottom{
+    padding-bottom: 100px;
+}
+
+/* ----------- 06.learning-css ----------- */
+.learning{
+    background-image: url(../images/h1-kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.learning-box{
+    background: #FCCE71;
+    padding: 50px 55px;
+    margin-left: 75px;
+    
+}
+
+.learning .col-50{
+    float: right;
+}
+
+.learning-box h3{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59.4px;
+    letter-spacing: 2.7px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-shadow: 2px 2.5px .1px #474747;
+}
+
+.learning-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    padding: 15px 0;
+
+}
+
+.learning-box .btn a {
+    background: #ffffff; ;
+    columns: #212121;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.learning-box .btn a:hover{
+    background: black;
+    color: white;
+}
+
+/* ----------- 07.event-css ----------- */
+.section-heading{
+    text-align: center;
+}
+
+.section-heading h3{
+    color: #434343;
+    text-transform: capitalize;
+    font-size: 47px;
+    line-height: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.section-heading p{
+    padding: 20px 0 85px 0;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.event-bg{
+    height: 210px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.event-bg img{
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+}
+
+.event-bg:hover img{
+    transform: scale(1.03);
+    transition: .7s;
+}
+
+.event-bg span{
+    background-color: #FCCE71;
+    color: #ffffff;
+    padding: 15px 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.event-bg:hover span{
+    background-color: black;
+    transition: .7s;
+}
+
+.event-bg span h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.event-bg span h5{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.event-item h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #434343;
+    padding: 25px 0 10px 0;
+    border-bottom: 1px solid;
+    border-color: rgb(216, 214, 216);
+}
+
+.event-item h4:hover{
+    color: #FCCE71;
+    transition: .7s;
+}
+
+.event-item li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #808080;
+    padding: 3px;
+}
+.event-item li i{
+    padding: 0 10px 0 0;
+    font-size: 12px;
+}
+.event-item ul{
+    padding: 18px 0;
+}
+
+/* ----------- 08.empower-css ----------- */
+.empower{
+    background-image: url(../images/h1-birds.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.empower-box{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.empower .col-50{
+    float: right;
+}
+
+.empower-box h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 44.9px;
+    letter-spacing: 0px;
+    color: #434343;
+    padding-bottom: 30px;
+}
+
+.empower-box p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #888888;
+}
+.col-50 img{
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+.col-50 img:hover{
+    transform: scale(1.03);
+    transition: .7s;
+}
+
+.bttn{
+    height: 80px;
+    width: 57px;
+    margin: -220px 240px;
+    position: absolute;
+}
+
+.amount{
+    display: inline-flex;
+    padding: 40px 0;
+}
+
+.amount h1{
+    color: #FDCF71;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+}
+
+.amount h5{
+    color: #555555;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28.1px;
+    letter-spacing: 0px;
+}
+
+.success-stories{
+    padding-right: 60px;
+}
+
+/* ----------- 09.course-css ----------- */
+.section-heading{
+    text-align: center;
+}
+
+.section-heading h3{
+    color: #434343;
+    text-transform: capitalize;
+    font-size: 47px;
+    line-height: 55px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.section-heading p{
+    padding: 20px 0 85px 0;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.course-bg{
+    height: 210px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.course-bg img{
+    height: 100%;
+    width: 100%;
+    transition: .7s;
+}
+
+.course-bg:hover img{
+    transform: scale(1.03);
+    transition: .7s;
+}
+
+.course-item{
+    border: 1px solid;
+    border-color: rgb(216, 214, 216);
+}
+
+.course-item h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #434343;
+    margin-left: 25px;
+    margin-top: -30px;
+}
+
+.course-item p{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888888;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.course-item h4{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #b9b9b9;
+    padding: 10px 0;
+    margin-left: 25px;
+    
+}
+
+.course-item h1:hover{
+    color: #FCCE71;
+    transition: .3s;
+}
+
+.course-item li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #b9b9b9;
+    padding: 3px;
+    display: inline-block;
+    padding: 0 15px 0 0;
+}
+.course-item li i{
+    font-size: 15px;
+    color: #b9b9b9;
+}
+.course-item ul{
+    padding: 18px 0;
+}
+
+.course{
+    margin-top: 30px;
+}
+.course-bdr{
+    border-top: 1px solid;
+    border-color: rgb(216, 214, 216);
+    padding-left: 25px;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: #FED072;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 5px 10px;
+    margin-left: 275px;
+    
+}
+
+.last{
+    background-image: url(../images/h1-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.last-section-heading h3{
+    color: #434343;
+    font-size: 39px;
+    line-height: 44.9px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+
+}
