@@ -601,16 +601,155 @@ header{
 
 .last{
     background-image: url(../images/h1-image-1.jpg);
-    background-size: cover;
+    background-size:contain ;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 570px;
+   
 }
 
-.last-section-heading h3{
-    color: #434343;
-    font-size: 39px;
-    line-height: 44.9px;
+.last-heading{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+.last-heading h1{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
+    font-size: 39px;
+    line-height: 44.9px;
+    color: #434343;
+}
 
+.last .contact-form{
+    width: 63%;
+    margin: 0 auto;
+}
+
+.last input{
+    display: inline-block;
+    width: 290px;
+    padding:15px 25px;
+    border: none;
+    outline: none;
+}
+
+.last button{
+    width: 120px;
+    padding:15px 25px;
+    background-color: #FDCF71;
+    border: none;
+}
+
+/* ----------- 09.footer-css ----------- */
+
+.footer-section{
+    background-image: url(../images/h1-footer-img.jpg);
+    padding-bottom:1.5rem;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.footer-heading{
+     margin-bottom: 20px;
+}
+.footer-heading h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #313131;
+}
+
+.footer-para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888888;
+    margin-bottom: 3rem;
+}
+i{
+    margin-right: 16px;
+}
+
+.footer-number{
+    margin-bottom: 20px;
+}
+
+.footer-news, .footer-link li{
+    margin-bottom: 20px;
+}
+
+.footer-news h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #313131;
+}
+.footer-news p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #888888;
+}
+
+.footer-link li{
+    list-style: none;
+}
+
+.footer-link li a{
+    text-decoration: none;
+    color: #313131;
+}
+
+.footer-map{
+    height: 150px;
+    width: 252px;
+    margin-bottom: 30px;
+}
+
+.footer-map img{
+    height: 100%;
+    width: 100%;
+}
+
+.diveder{
+    margin: 2.5rem 0;
+    width: 100%;
+    border: 1px solid ;
+    border-color: rgb(216, 214, 216);
+}
+
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 26px;
+    color: #555555;
+    letter-spacing: .5px;
+}
+
+.list{
+    float: right;
+}
+
+.list li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.list li a{
+    text-decoration: none;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: .5px;
 }
